@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body{
+    line-height: 1.5;
+    color: #555;
     font-family: 'Lato', sans-serif;
-
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
@@ -66,4 +67,33 @@ header.header_bg .top_menu button.to_about_button{
 }
 section.info{
     text-align: center;
+}
+section.info h3{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+section.info h4{
+    color: #777777;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 22px;
+}
+section.info h4:after{
+    content: '';
+    display: block;
+    margin: 30px auto 50px;
+    width: 40px;
+    border-top: 2px solid #444;
+}
+section.info img{
+    width: 100%;
+    max-width: 250px;
+}
+section.info .desc{
+    text-align: left;
+    font-weight:300;
+    font-size: 17px;
 }
