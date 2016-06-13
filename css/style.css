@@ -97,3 +97,8 @@ section.info .desc{
     font-weight:300;
     font-size: 17px;
 }
+section.gallery{
+    background: url('/img/calendar_bg.jpg') 50% 50% no-repeat;
+    height: 600px;
+    width:100%;
+}
