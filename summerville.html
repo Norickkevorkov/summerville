@@ -2,9 +2,11 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Summerville 2016</title>
@@ -15,18 +17,18 @@
         <div class="row header"><h2>I like trip вновь представляет</h2></div>
         <div class="row logo"><img src="img/logo_white.png" alt="SummerVille Logo"></div>
         <div class="row top_menu">
-            <button class="to_submit_form_button">Поехали!</button>
+            <button class="to_submit_form_button"><a href="#reg">Поехали!</a></button>
              - или -
-            <button class="to_about_button">Подробности</button>
+            <button class="to_about_button"><a href="#top">Подробности</a></button>
         </div>
     </div>
 </header>
 <section class="container info">
-    <h3 class="row">Что такое SummerVille ?</h3>
+    <h3 id="top" class="row">Что такое SummerVille ?</h3>
     <h4 class="row">SummerVille – абсолютно новый формат отдыха студентов</h4>
     <div class="row">
         <div class="col-sm-4 col-xs-12">
-            <img src="img/sv3.jpg" alt="">
+            <img class="sv3" src="img/sv3.jpg" alt="">
         </div>
         <p class="col-sm-8 col-xs-12 desc">
 
@@ -69,11 +71,330 @@
         </div>
     </div>
 </section>
-<section class="container">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid assumenda distinctio dolore ea eaque eius error inventore ipsum laudantium modi, nobis quidem reiciendis sequi vero? Ipsam non veniam vitae?
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section class="container info">
+    <h3 class="row">Что такое SummerVille ?</h3>
+    <div class="icons_container">
+        <div class="row">
+            <div class="col-sm-3 icons">
+                <i class="fa fa-home fa-4x"></i>
+                <h6>Проживание</h6>
+                <p>Проживание в палатках по 2 человека</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-cutlery fa-4x"></i>
+                <h6>Питание</h6>
+                <p>3-х разовое питание</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-gamepad fa-4x"></i>
+                <h6>Программа</h6>
+                <p>Ежедневная развлекательная программа</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-film fa-4x"></i>
+                <h6>Кинотеатр</h6>
+                <p>Собственный кинотеатр под звездным Крымским небом</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 icons">
+                <i class="fa fa-area-chart  fa-4x"></i>
+                <h6>Крымские горы</h6>
+                <p>Подъемы на вершины гор Партизанка, АЙ-Петри</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-user-secret  fa-4x"></i>
+                <h6>Супер-гонка</h6>
+                <p>Через тернии к морю!</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-futbol-o fa-4x"></i>
+                <h6>Спорт</h6>
+                <p>Футбольная, баскетбольная и волейбольная площадки</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-camera fa-4x"></i>
+                <h6>Экскурсионная программа</h6>
+                <p>Экскурсии в Ялту, Ласточкино Гнездо и Симеиз</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 icons">
+                <i class="fa fa-ship fa-4x"></i>
+                <h6>Черное море</h6>
+                <p>тут без комментариев</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-fire fa-4x"></i>
+                <h6>Вечера у костра</h6>
+                <p>Песни под гитару до утра</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-music fa-4x"></i>
+                <h6>Радио и DJ-сеты</h6>
+                <p>Бодрое утро и яркая ночь!</p>
+            </div>
+            <div class="col-sm-3 icons">
+                <i class="fa fa-github-alt fa-4x"></i>
+                <h6>Маленькая ферма</h6>
+                <p>Да-да, мы действительно считаем, что это круто =)</p>
+            </div>
+        </div>
+    </div>
 </section>
+<section data-enllax-ratio="0.5" data-enllax-direction="vertical" class="gallery">
+    <div class="container">
+        <h3>Как мы строили лагерь в прошлом году</h3>
+        <div class="row videos">
+            <div class="col-sm-4">
+                <iframe src="https://player.vimeo.com/video/134079051" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/134079051">SummerVille - Дневник стройки #1</a> from <a href="https://vimeo.com/iliketrip">iLikeTrip</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+            <div class="col-sm-4">
+                <iframe src="https://player.vimeo.com/video/134326835" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/134326835">SummerVIlle - Дневники стройки #2</a> from <a href="https://vimeo.com/iliketrip">iLikeTrip</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+            <div class="col-sm-4">
+                <iframe src="https://player.vimeo.com/video/134641663" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/134641663">SummerVIlle - Дневники стройки #3</a> from <a href="https://vimeo.com/iliketrip">iLikeTrip</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container info">
+    <h3 class="row">Регистрация</h3>
+    <h4 class="row">На лучший летний отдых от I Like Trip</h4>
+    <div class="row">
+        <div class="col-sm-4"><img src="img/yoga_image.jpg" alt=""></div>
+        <div class="col-sm-7 desc">
+            <p>
+                <b>1 неделя - YOGA WEEK </b><br>
+                Неделя для любителей йоги и здорового образа жизни, начинающие и продвинутые! Вас ждёт
+                насыщенная программа, занятия йогой и медитацией, ласковое солнце и чистое море,
+                увлекательные экскурсии и, конечно, общение с интересными людьми!
+                <br><br>
+                Впервые вы сможете позаниматься йогой на самой вершине одной из Крымских гор:
+            </p>
+            <ul>
+                <li>ежедневные практики хатха-йоги утром на восходе и вечером на закате</li>
+                <li>медитация в горах</li>
+                <li>мастер-классы и воркшопы</li>
+            </ul>
+            <p>
+                Все неделю вместе с нами — <b>инструктор по йоге и Мисс НИУ ВШЭ 2014 Каролина Пономарева.</b>
+                <br><br>
+                <b>За неделю Yoga Week, вы получите:</b>
+            </p>
+            <ul>
+                <li>полное погружение и перезагрузку</li>
+                <li>колоссальную эффективность по сравнению с занятиями в ритме повседневной жизни</li>
+                <li>овладение техниками расслабления и снятия стресса</li>
+                <li>обретение осознанности и чувства пребывания в настоящем моменте</li>
+                <li>ощутимое повышение гибкости и здоровья тела</li>
+                <li>мощный энергетический заряд вплоть до следующего лета</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-7 desc">
+            <p>
+                <b>2 неделя - Hot Summer </b><br>
+                Cамая яркая и жаркая неделя этого лета!<br>
+                Неделя самого жаркого солнца и отличного загара. Неделя ясного звездного неба, яркой компании,
+                которая готова гулять все ночи напролет. Неделя задушевных разговоров по ночам и нереальной
+                атмосферы Summer Ville.
+                <br><br>
+                Каждый житель нашего кэмпинга оценит насыщенность нашей программы и поучаствует более чем в 10
+                различных мероприятиях.
+                <br><br>
+                <b>На Hot Summer week вас ждет:</b>
+            </p>
+            <ul>
+                <li>Веселье 24/7</li>
+                <li>Чемпионат по спортивному Что?Где?Когда?</li>
+                <li>Гонка героев</li>
+                <li>Ночные квесты и испытания</li>
+                <li>Уже любимое party на пляже</li>
+                <li>Утренняя зарядка от Даши Баранецкой</li>
+                <li>BBQ вечер открытия</li>
+                <li>и многое другое</li>
+            </ul>
+            
+        </div>
+        <div class="col-sm-4"><img src="img/hot_summer_image.jpg" alt=""></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><img src="img/f_republic_image.jpg" alt=""></div>
+        <div class="col-sm-7 desc">
+            <p>
+                <b>3 неделя - F Republic</b><br>
+                7 августа Summer Ville прекратит свое существование. <br>
+                Испугались? Не расстраивайтесь, ведь в ночь с 7 на 8 число в звездном небе Крыма разовьется флаг
+                Республики F. Целую неделю мы будем строить свой уникальный мир, где каждый будет свободен
+                и абсолютно счастлив. Свою республику без ограничений и стереотипов.
+                <br><br>
+                F Republic в Summer Ville — невероятный симбиоз двух фантастических проектов,
+                без выдуманных внешним миром запретов. <br>
+                <b>Для всех. Для каждого. Для тебя.</b>
+                <br><br>
+                <b>Только на Республике F вас ждет:</b>
+            </p>
+            <ul>
+                <li>Фирменное радио от RJ Семы</li>
+                <li>Самая свободная тусовка</li>
+                <li>Проект — Вечеринка за 12 часов</li>
+                <li>День Ялты</li>
+                <li>Подъем флага Республики на вершину горы</li>
+                <li>Выбор короля Республики каждый день</li>
+                <li>Экшн игра — последний герой Республики</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-7 desc">
+            <p>
+                <b>4 неделя - The Media Week - Медиа школа от The Vyshka </b> <br>
+                <br>
+                Вас ждет море медиа и медиа у моря. <br><br>
+                The Вышка готовит для вас курс молодого журналиста в Summer Ville. Вас ждет целая неделя
+                прокачивания навыков в написании текстов, ведении социальных сетей и фото.<b>The Vyshka</b>
+                поделится опытом, накопленным за время существования издания, и вы на практике опробуете полученные знания.
+                <br><br>
+                Если вы всегда мечтали реализовать себя в журналистике, то пора перестать противиться этому желанию.
+                Лето – самое подходящее время для этого время. Неделя свободной журналистики, отдыха и новых проектов.
+                <br><br>
+                <b>Форматы:</b>
+            </p>
+            <ul>
+                <li>Лектории на открытом небе</li>
+                <li>Проектная деятельность в мобильных группах</li>
+                <li>Мастер-классы для групп</li>
+                <li>Совместный просмотр тематических фильмов и обсуждение</li>
+            </ul>
+            <p><b># The Media Week:</b></p>
+            <ul>
+                <li>Лектории на открытом небе</li>
+                <li>Редактор, автор, дезигн, СММ-щик — попробуй себя в каждой роли</li>
+                <li>Учимся писать новости, репортажи, интервью, лонгриды</li>
+                <li>Осваиваем разные стили</li>
+                <li>Ведем страницы в социальных сетях</li>
+                <li>Оформляем материал: фото, иллюстрации, инфографика</li>
+                <li>Публикуем материалы</li>
+            </ul>
+        </div>
+        <div class="col-sm-4"><img src="img/media_week_image.jpg" alt=""></div>
+    </div>
+    <a class="button" href="#reg">Зарегистрироваться сейчас</a>
+    <h3 class="row">Независимо от выбранной Вами недели Вас ждет:</h3>
+    <h4></h4>
+    <ul class="list-group">
+        <li class="list-group-item">8 дней 7 ночей в палаточном кемпинге</li>
+        <li class="list-group-item">Проживание в новых палатках по 2 человека</li>
+        <li class="list-group-item">Оборудованные душевые и туалеты</li>
+        <li class="list-group-item">3-х разовое стационарное питание</li>
+        <li class="list-group-item">Трансфер в/из аэропорта</li>
+        <li class="list-group-item">Пользование всей инфраструктурой кемпинга (лаундж-зона с гамаками, собственный бар, bookcrossing)</li>
+        <li class="list-group-item">Экскурсии - Вечерняя Ялта, Ласточкино Гнездо, Ночной Симеиз</li>
+        <li class="list-group-item">Подъем на вершину горы Партизанка</li>
+        <li class="list-group-item">Развлекательная программа</li>
+        <li class="list-group-item">Супер гонка — Через тернии к морю</li>
+        <li class="list-group-item">Просмотр кино под открытым небом</li>
+        <li class="list-group-item">Дискотеки в кемпинге</li>
+        <li class="list-group-item">Игровые квесты</li>
+        <li class="list-group-item">Вечера у костра под гитару</li>
+        <li class="list-group-item">Купание в Черном море днем и ночью</li>
+        <li class="list-group-item">Барбекю</li>
+        <li class="list-group-item">Сюрпризы и подарки от организаторов</li>
+    </ul>
+</section>
+<section data-enllax-ratio="0.5" data-enllax-direction="vertical" class="gallery">
+    <div class="container">
+        <h3>И лучший палаточный лагерь!</h3>
+        <div class="row">
+            <div class="gallery_box2 masonry-thumbs col-6">
+                <div class="grid-item2"><a href="img/gallery2_item1.jpg"><img src="img/gallery2_item1.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item2.jpg"><img src="img/gallery2_item2.jpg" alt=""></a></div>
+                <div class="grid-item2 double-size"><a href="img/gallery2_item3.jpg"><img src="img/gallery2_item3.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item4.jpg"><img src="img/gallery2_item4.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item5.jpg"><img src="img/gallery2_item5.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item6.jpg"><img src="img/gallery2_item6.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item7.jpg"><img src="img/gallery2_item7.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item8.jpg"><img src="img/gallery2_item8.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item9.jpg"><img src="img/gallery2_item9.jpg" alt=""></a></div>
+                <div class="grid-item2"><a href="img/gallery2_item10.jpg"><img src="img/gallery2_item10.jpg" alt=""></a>
+                </div>
+                <div class="grid-item2"><a href="img/gallery2_item11.jpg"><img src="img/gallery2_item11.jpg" alt=""></a>
+                </div>
+                <div class="grid-item2"><a href="img/gallery2_item12.jpg"><img src="img/gallery2_item12.jpg" alt=""></a>
+                </div>
+                <div class="grid-item2"><a href="img/gallery2_item13.jpg"><img src="img/gallery2_item13.jpg" alt=""></a>
+                </div>
+                <div class="grid-item2"><a href="img/gallery2_item14.jpg"><img src="img/gallery2_item14.jpg" alt=""></a>
+                </div>
+                <div class="grid-item2"><a href="img/gallery2_item15.jpg"><img src="img/gallery2_item15.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container info">
+    <h3>Стоимость участия</h3>
+    <h4></h4>
+    <p class="text-center">
+        Цена одной недели и отличного настроения — <b>17500 рублей</b> <br>
+        Данная цена действиительна до <b>1 июля.</b> <br>
+        <b>Дополнительно оплачивается лишь перелет.</b> <br>
+        Количество мест на каждую неделю ограничено. <br>
+        <b>До 1 июля</b> вам нужно связаться с нами, получить ваш «паспорт» жителя Summer Ville <br>
+        и внести предоплату в размере всего <b>5000 рублей</b>.
+    </p>
+    <a href="#reg" class="button">Стать участником SummerVille</a>
+    <h3>Организатор поездки</h3>
+    <h4>Клуб студенческих путешествий I LIKE TRIP</h4>
+    <div class="row">
+        <div class="col-sm-4"><img src="img/iliketrip_logo.jpg" alt=""></div>
+        <div class="col-sm-7">
+            <p class="text-left">
+                <b>I Like Trip</b> <br>
+                Клуб студенческих путешествий создан студентами и выпускниками НИУ-ВШЭ и МФТИ, объединяет активных студентов вузов России для незабываемых путешествий по всему миру.
+                <br><br>
+                Завораживающие виды заснеженных гор или широкие просторы лугов, волны на солнечном пляже или узкие улочки европейских городов. Где бы мы не оказались, мы знаем, как сделать путешествие ярким!
+                <br><br>
+                Счастливые улыбки, насыщенная программа и атмосфера приключений - часть каждого нашего выезда. Присоединяйтесь, давайте смотреть на мир вместе!
+                <br><br>
+                <b>VK: </b><a href="vk.com/iliketrip">Наша группа Вконтакте</a>
+            </p>
+        </div>
+    </div>
+    <h3>Партнеры</h3>
+    <h4></h4>
+    <div class="row partners">
+        <div class="col-sm-3"><img src="img/mfti_logo.jpg" alt=""></div>
+        <div class="col-sm-3"><img src="img/vshe_logo.jpg" alt=""></div>
+        <div class="col-sm-3"><img src="img/mfti_profcom.jpg" alt=""></div>
+        <div class="col-sm-3"><img src="img/jefreys_logo.jpg" alt=""></div>
+    </div>
+    <div class="row partners">
+        <div class="col-sm-2"><img src="img/fizteh_radio.jpg" alt=""></div>
+        <div class="col-sm-2"><img src="img/hse_logo.jpg" alt=""></div>
+        <div class="col-sm-2 col-sm-offset-1    "><img src="img/icef_logo.jpg" alt=""></div>
+        <div class="col-sm-2 col-sm-offset-1"><img src="img/hsr_logo.jpg" alt=""></div>
+        <div class="col-sm-2"><img src="img/the_vyshka.jpg" alt=""></div>
+    </div>
+    <a href="https://vk.com/id1521684" class="button">Хочешь стать нашим партнером - пиши </a>
+    <h3 id="reg">Зарегистрируйся сейчас</h3>
+    <h4>И ты первым займешь свое место в SummerVille</h4>
+    <a href="https://iliketrip.timepad.ru/event/318756/" data-twf-placeholder="yes">Перейти к заказу билетов</a>
+    <script type="text/javascript" defer="defer" charset="UTF-8" data-timepad-customized="10552" data-twf2s-event--id="318756" data-timepad-widget-v2="event_register" src="https://timepad.ru/js/tpwf/loader/min/loader.js"></script>
+    <h4></h4>
+</section>
+<footer>
+    <div class="container">
+        <p id="copyright">Copyrights © 2016 I Like Trip </p>
+        <p id="ref">iliketrip.ru · ·</p>
+    </div>
+
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/magnific-popup.js"></script>
